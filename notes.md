@@ -5,15 +5,12 @@ ingredients
     id
     name
     quantity
-instructions
-    id
-    description
-    ingredient id
 steps
     id
-    recipe id
-    instruction id
     step number
+    description
+    ingredient id
+    recipe id
 
 
 
