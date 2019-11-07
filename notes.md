@@ -1,20 +1,19 @@
 recipes
     id
     name
-steps
-    id
-    instructions
 ingredients
     id
     name
-recipe_step
-    recipe id
-    step number
-    step id
-ingredient_step
+    quantity
+instructions
+    id
+    description
     ingredient id
-    step id
-    ingredient quantity
+steps
+    id
+    recipe id
+    instruction id
+    step number
 
 
 
