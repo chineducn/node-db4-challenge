@@ -1,11 +1,10 @@
 const express = require('express')
+const recipesRouter = require('./routers/recipesRouter')
 
 const server = express()
 
 server.use(express.json())
 
-server.get('/', (req, res) => {
-    res.json('we are in server LAND!!!!!!!')
-})
+server.use('/api/recipes', recipesRouter)
 
 module.exports = server
