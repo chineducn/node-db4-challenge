@@ -1,6 +1,25 @@
 recipes
     id
     name
+steps
+    id
+    instructions
+ingredients
+    id
+    name
+recipe_step
+    recipe id
+    step number
+    step id
+ingredient_step
+    ingredient id
+    step id
+    ingredient quantity
+
+
+recipes
+    id
+    name
 ingredients
     id
     name
